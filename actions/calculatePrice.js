@@ -15,7 +15,8 @@ export const calculatePrice = payload => (dispatch) => {
     return;
   }
   if (!included) {
-    bill = (parseFloat(price) / (parseFloat(price) + currentRate)) * currentRate;
+    bill = (parseFloat(price) / (100 + currentRate)) * currentRate;
+    console.log('bill', bill);
     dispatch({
       type: 'CALCULATE_PRICE',
       payload: price,
