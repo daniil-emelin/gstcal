@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/FreeSans.ttf",
+      "sha1": "7ee5c573e3d3c1a8101befa7d89224c462c33554"
+    },
+    {
+      "path": "src/assets/fonts/LibreFranklin-Light.ttf",
+      "sha1": "a7088c9f10fe3d1e2a2e3256d0d1ab13abd464e8"
+    },
+    {
+      "path": "src/assets/fonts/SpaceMono-Regular.ttf",
+      "sha1": "fae3a5a43b50e0408fd61e14383d94a023d332b0"
+    }
+  ]
+}

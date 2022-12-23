@@ -1,47 +1,51 @@
 {
-  "name": "taxesApp",
+  "name": "GstCalc",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
-    "react": "16.8.3",
-    "react-native": "0.58.6",
-    "react-native-customisable-switch": "^0.1.0",
-    "react-native-gesture-handler": "^1.1.0",
-    "react-native-keyboard-aware-scroll-view": "^0.8.0",
-    "react-native-picker-select": "^6.1.0",
-    "react-native-splash-screen": "^3.2.0",
-    "react-native-step-indicator": "0.0.9",
-    "react-navigation": "^3.5.1",
-    "react-redux": "^6.0.1",
-    "react-router": "^5.0.0",
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/cli": "^10.0.0",
+    "@react-native-picker/picker": "^2.4.8",
+    "@react-navigation/native": "^6.1.1",
+    "@react-navigation/native-stack": "^6.9.6",
+    "@reduxjs/toolkit": "^1.9.1",
+    "history": "^5.3.0",
+    "react": "18.1.0",
+    "react-native": "0.70.6",
+    "react-native-eject": "^0.2.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-pager-view": "^6.1.0-rc.2",
+    "react-native-picker-select": "^8.0.4",
+    "react-native-safe-area-context": "^4.4.1",
+    "react-native-screens": "^3.18.2",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.4.5",
     "react-router-redux": "^4.0.8",
-    "redux": "^4.0.1",
+    "redux": "^4.2.0",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0",
-    "rn-viewpager": "^1.2.9"
+    "redux-thunk": "^2.4.2",
+    "rn-viewpager": "^1.2.9",
+    "rn-viewpager-handy": "^1.5.0"
   },
   "devDependencies": {
-    "@babel/core": "7.4.0",
-    "@babel/runtime": "7.4.2",
-    "@react-native-community/eslint-config": "0.0.3",
-    "babel-jest": "24.5.0",
-    "eslint": "5.16.0",
-    "jest": "24.5.0",
-    "metro-react-native-babel-preset": "0.53.1",
-    "react-native-bundle-visualizer": "^1.4.1",
-    "react-test-renderer": "16.8.3"
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "0.72.3",
+    "react-test-renderer": "18.1.0"
   },
   "jest": {
     "preset": "react-native"
-  },
-  "rnpm": {
-    "assets": [
-      "./assets/fonts/"
-    ]
   }
 }
